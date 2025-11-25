@@ -38,7 +38,7 @@ const BootSequence: React.FC<{ onComplete: () => void }> = ({ onComplete }) => {
         <div className="fixed inset-0 bg-black z-[9999] flex items-center justify-center font-mono text-xs text-tech-cyan">
             <div className="w-64">
                 {lines.map((line, idx) => (
-                    <div key={idx} className="mb-1">> {line}</div>
+                    <div key={idx} className="mb-1">&gt; {line}</div>
                 ))}
                 <div className="animate-pulse">_</div>
             </div>
